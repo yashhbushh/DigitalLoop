@@ -1,0 +1,560 @@
+* {
+      margin: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+      vertical-align: baseline;
+      font-size: 100%;
+}
+.background{
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+.backgroundimg{
+  position: relative;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+}
+.banner{
+  padding: 0;
+  margin: 0;
+}
+html {
+      font-family: Poppins;
+}
+
+body {
+      width: 100%;
+      background-color: #393e46;
+      margin: 0;
+      padding: 0;
+}
+
+.wrapper {
+
+      margin: 0 0;
+}
+
+
+
+h1 {
+      color: #fff;
+      font-size: 48px;
+}
+
+p {
+      color: #fff;
+      font-size: 16px;
+      font-weight: 300;
+}
+
+/* navbar */
+
+
+
+
+
+
+/* my css */
+.heading1{
+  font-size: 5rem;
+}
+.heading2{
+  font-size: 2rem;
+}
+.anim{
+  transition: transform 2s;
+}
+.anim:hover{
+  transform: scale(1.1);
+}
+.anim1{
+  transition: transform 2s;
+
+}
+
+.anim1:hover{
+  transform: scale(2);
+}
+
+.container{
+  width: 1145px;
+
+  margin: 70px auto 70px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+
+.container .box {
+  position: relative;
+  width: 546.328px;
+  height: 382.442px;
+
+  margin: 12.141px;
+  box-sizing: border-box;
+  display: inline-block;
+
+}
+.container .box .imgBox{
+  position: relative;
+  overflow: hidden;
+}
+.container .box .imgBox img {
+  max-width: 100%;
+  max-height: 100%;
+  transition: transform 2s;
+}
+.container .box:hover .imgBox img{
+transform: scale(1.2);
+
+
+}
+.wrapper {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.container .box .details {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  padding-top: 100px;
+  text-align: center;
+  background-color: rgba(0,0,0,.8);
+  transform: scaleY(0);
+  transition: transform .5s;
+}
+.container .box:hover .details{
+
+transform: scaleY(1);
+
+}
+.container .box .details .content {
+  position: absolute;
+
+
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+}
+
+.container .box .details .content h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 40px;
+  color: #ff0;
+}
+.container .box .details .content p {
+  padding: 10px 0 0;
+  margin: 0;
+
+}
+
+
+/* header */
+
+header {
+      margin: 100px 0 200px 120px;
+}
+
+header p {
+      width: 60%;
+      margin-top: 10px;
+}
+
+/* .work */
+
+
+
+
+/* header2 */
+
+.header2 {
+      margin: 130px 0 80px 40px;
+}
+
+/* .work2 */
+.work2 {
+      width: 100%;
+      text-align: center;
+}
+
+.work2 img {
+      margin: 1%;
+      width: 94%;
+}
+
+/* footer */
+footer p {
+      text-align: center;
+      color: grey;
+      margin: 60px auto;
+}
+#map_canvas {
+	height: 450px;
+	width: 100%;
+}
+#map_canvas img {
+	max-width: inherit;
+}
+/*-----------------------------CONTACT SECTION-----------------------------------*/
+
+input, textarea {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border: 1px solid #DDDDDD;
+	color: #888;
+	line-height: inherit;
+	padding: 12px 20px;
+	width: 100%;
+	background: #fff;
+}
+input:focus, textarea:focus {
+	border-color: #ccc;
+}
+::-webkit-input-placeholder {
+ color: #999;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+ color: #999;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+ color: #999;
+}
+
+:-ms-input-placeholder {
+ color: #999;
+}
+.error {
+	color: #FF0000;
+	font-size: 12px;
+	font-weight: normal;
+	left: auto;
+	position: absolute;
+	right: 20px;
+	top: 12px;
+	width: auto;
+}
+.contact-btn {
+	background: none repeat scroll 0 0 #333333;
+	color: #FFFFFF;
+	display: inline-block;
+	line-height: 1.6;
+	padding: 6px 18px;
+}
+.contact-btn:hover {
+	background: #888;
+	color: #fff;
+}
+#MyContactForm p {
+	position: relative;
+}
+.address-list {
+	line-height: 30px;
+	list-style: none outside none;
+	margin-top: 20px;
+}
+.address-list li {
+	color: #777777;
+	font-family: 'Montserrat', sans-serif;
+	margin-bottom: 10px;
+}
+.address-list li i {
+	background: none repeat scroll 0 0 #333333;
+	border-radius: 50px;
+	color: #FFFFFF;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	width: 30px;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.header2{
+  background-image:  url(project5.jpg);
+
+
+  margin-left: 0;
+  height: 500px;
+
+}
+.quote {
+  padding-top: 250px;
+}
+/*-----------------------------FOOTER SECTION-----------------------------------*/
+.footer {
+	background: #393e46;
+	overflow: hidden;
+	margin-bottom: -100px; /*for fixing ie bug */
+}
+.footer p {
+	color: #333;
+	font-family: montserrat;
+	letter-spacing: 1px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+	text-transform: uppercase;
+	margin: 0;
+	line-height: 30px;
+	font-size: 12px;
+}
+.footer p a {
+	color: #555;
+}
+.footer p a:hover {
+	color: #999;
+}
+.soc-footer {
+	list-style: none outside none;
+	margin: 0;
+	padding: 30px 0;
+	text-align: right;
+}
+.soc-footer li {
+	display: inline-block;
+}
+.soc-footer li a {
+	background: none repeat scroll 0 0 #333333;
+	display: block;
+	font-size: 15px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50px 50px 50px 50px;
+	width: 30px;
+}
+
+/* about us */
+
+#aboutus{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#393e46;
+  margin: 0;
+
+}
+.about-section{
+  background: url(1.jpg) no-repeat left;
+  background-size: 55%;
+
+  overflow: hidden;
+  padding: 100px 0;
+  background-size: 100%;
+  margin: 0;
+
+}
+.inner-container{
+  width: 80%;
+  float: right;
+
+  background-color: #393e46;
+  padding: 50px;
+}
+
+.inner-container h1{
+  margin-bottom: 30px;
+  font-size: 50px;
+  font-weight: 900;
+  color: #ff0;
+}
+.text{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: justify;
+  margin-bottom: 48px;
+}
+.skills{
+
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size:15px;
+}
+
+.click{
+  display: none;
+}
+
+.quot  .head{
+  position: absolute;
+  padding-top: 250px;
+
+}
+.heading11{
+  font-size: 3rem;
+}
+.heading22{
+  font-size: 2rem;
+}
+/* Responsiveness */
+
+@media only screen and (max-width: 1028px) {
+  .quot .head{
+    padding-top: 50px;
+  }
+  .heading11{
+    font-size: 2rem;
+  }
+  .heading22{
+    font-size: 1rem;
+  }
+  .click{
+    display: inline-table;
+    color: #ff0
+  }
+  body {
+    background-color: #1b262c;
+  }
+  .background{
+    top: 100px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .container{
+    display:  flex;
+    width: 350px;
+    margin: 0;
+
+
+  }
+  .heading1{
+    font-size: 2.5rem;
+  }
+  .heading2{
+    font-size: 1.5rem;
+
+
+  }
+
+  .imgBox{
+    width: 100px;
+    text-align: center;
+  }
+
+  .project{
+    width: 100%;
+  }
+  .box{
+    padding-left: 24px;
+
+  }
+  .container .box .details {
+   width: 295px;
+   height: 100px;
+
+    position: absolute;
+    top: 10px;
+    left: 6px;
+    right: 10px;
+    bottom: 0;
+    padding-top: 100px;
+    padding-left: 24px;
+    text-align: center;
+    background-color: rgba(0,0,0,.8);
+    transform: scaleY(0);
+    transition: transform .5s;
+  }
+  .container .box .details .content {
+    position: absolute;
+
+
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 0;
+  }
+
+
+      header {
+            text-align: left;
+            margin: 100px 0 100px 30px;
+      }
+
+      header h1 {
+            font-size: 36px;
+      }
+
+      header p {
+            font-size: 12px;
+            width: 90%;
+      }
+
+      .imgBox {
+            margin: 2%;
+            width: 90%;
+      }
+
+
+
+      .header2 h1 {
+            font-size: 36px;
+      }
+
+      .header2 p {
+            font-size: 12px;
+            width: 100%;
+      }
+
+      .work2 img {
+            margin: 2%;
+      }
+    .about-section{
+      padding: 0;
+    }
+}
+
+
+@media screeen and(max-width: 1200px){
+  .inner-container{
+    paddinng: 80px;
+  }
+
+
+
+}
+
+
+
+@media screeen and(max-width: 1000px){
+  .about-section{
+    background-size: 100%;
+    padding: 150px 60px;
+    background: url("");
+  }
+  .inner-container{
+    width: 100%;
+  }
+
+
+}
+@media screen and(max-width:600px){
+  .about-section{
+    padding: 0;
+  }
+  .inner-container{
+    padding:0px;
+  }
+}
